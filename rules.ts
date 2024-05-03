@@ -62,15 +62,12 @@ const rules: KarabinerRules[] = [
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
-      // Quarterly "P"lan
-      p: open("https://qrtr.ly/plan"),
       y: open("https://news.ycombinator.com"),
       f: open("https://facebook.com"),
       r: open("https://reddit.com"),
     },
     // o = "Open" applications
     o: {
-      1: app("1Password"),
       g: app("Google Chrome"),
       c: app("Notion Calendar"),
       v: app("Visual Studio Code"),
@@ -78,7 +75,7 @@ const rules: KarabinerRules[] = [
       s: app("Slack"),
       e: app("Superhuman"),
       n: app("Notion"),
-      t: app("Terminal"),
+      t: app("iTerm"),
       // Open todo list managed via *H*ypersonic
       h: open(
         "notion://www.notion.so/elevenpros/Home-6d2e366891f84e8a8be4536e31b6e281?pvs=46"
@@ -91,12 +88,9 @@ const rules: KarabinerRules[] = [
       // "i"Message
       i: app("Texts"),
       p: app("Spotify"),
-      a: app("iA Presenter"),
-      // "W"hatsApp has been replaced by Texts
+      a: app("Arc"),
       w: open("Texts"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
-      ),
+      
     },
 
     // w = "Window" via rectangle.app
@@ -304,16 +298,13 @@ const rules: KarabinerRules[] = [
     // r = "Raycast"
     r: {
       n: open("raycast://script-commands/dismiss-notifications"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
-      ),
       e: open(
         "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
       ),
-      c: open("raycast://extensions/raycast/system/open-camera"),
+      c: open("raycast://extensions/raycast/clipboard-history/clipboard-history"),
       p: open("raycast://extensions/raycast/raycast/confetti"),
       a: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
-      s: open("raycast://extensions/peduarte/silent-mention/index"),
+      s: open("raycast://extensions/raycast/raycast-ai/search-ai-chat-presets"),
       h: open(
         "raycast://extensions/raycast/clipboard-history/clipboard-history"
       ),
