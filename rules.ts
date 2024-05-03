@@ -81,7 +81,7 @@ const rules: KarabinerRules[] = [
       t: app("Terminal"),
       // Open todo list managed via *H*ypersonic
       h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
+        "notion://www.notion.so/elevenpros/Home-6d2e366891f84e8a8be4536e31b6e281?pvs=46"
       ),
       z: app("zoom.us"),
       // "M"essages

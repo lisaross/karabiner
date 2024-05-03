@@ -601,10 +601,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
+                    "shell_command": "open notion://www.notion.so/elevenpros/Home-6d2e366891f84e8a8be4536e31b6e281?pvs=46"
                   }
                 ],
-                "description": "Open notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026",
+                "description": "Open notion://www.notion.so/elevenpros/Home-6d2e366891f84e8a8be4536e31b6e281?pvs=46",
                 "type": "basic",
                 "from": {
                   "key_code": "h",
